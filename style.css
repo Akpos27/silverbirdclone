@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+/* styling for hesder */
+.header-first-child{
+    background-color: #2651FF;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 1rem;
+    align-content: center;
+}
+.header-date p{
+    font-size: 0.8rem;
+    padding-left: 1rem;
+}
+.header-icons i{
+    margin: 0 0.5rem;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid lightgray;
+    box-shadow:0 0 7px lightgray;
+}
+.logo{
+    width: 7%;
+ 
+}
+.links{
+   width: 76%;
+   font-size: 15px;
+   font-weight: bold;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    color: #2651FF;
+
+   
+}
+.nav-links li{
+    margin: 0 0.5rem;
+   
+}
+.nav-links li a{
+    text-transform: uppercase;
+}
+
+.search-icon{
+    width: 7%;
+}
+.last-nav-link{
+    display: flex;
+    list-style: none;
+    color:rgb(113,113,113);
+    justify-content: center;
+    height: 50px;
+    border-bottom: 1px solid lightgray;
+    box-shadow:0 0 8px lightgray;
+    align-items: center;
+    
+    
+}
+.last-nav-link li a{
+    text-decoration: none;
+    margin: 0 0.7rem;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.dropdown-content{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+
+}
