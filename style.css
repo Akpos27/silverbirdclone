@@ -81,3 +81,100 @@
     text-align: center;
 
 }
+.landing-page{
+    display: flex;
+    gap: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    
+}
+.landing-page-one{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.first-landingpage{
+    display: flex;
+    flex-direction: column;
+    background-image: url(CBN-Orders-Banks-To-Accept-And-Dispense-Old-500-1000-Naira-Notes-218x150.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;
+    color: #fff;
+    padding: 0.5rem;
+    justify-content: end;
+    gap: 0.8rem;
+    width: 20vw;
+    font-weight: bold;
+
+}
+.first-landingpage h5{
+    background: #000000aa;
+    width: 22%;
+    
+}
+.sec-landingpage{
+    display: flex;
+    flex-direction: column;
+    background-image: url(Fire-guts-Lagos-spare-parts-market-security-guard-killed-218x150.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80vw;
+    justify-content: end;
+    gap: 0.7rem;
+    padding: 1rem;
+    color: #fff;
+    }
+    .sec-landingpage h4{
+        background-color: #000000aa;
+        width: 8.5%;
+    }
+    .sec-landingpage p{
+        font-weight: bold;
+        font-size: 3.2rem;
+    }
+    .secondlanding-page{
+        display: flex;
+        background-color:rgb(251, 212, 212);
+        width: 80vw;
+        height: 18vh;
+        margin: 5rem 7.6rem;
+        padding: 1.5rem;
+        justify-content: space-around;
+    }
+    .sp{
+        display: flex;
+        padding-left: 3rem;
+
+    }
+    .sp p{
+        text-align: center;
+        font-weight: bold;
+        padding-left: 1rem;
+        padding-right: 0rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        font-size: 0.9rem;
+    }
+    #spp{
+        padding-left: 0rem;
+    }
+    .thirdlanding-page{
+        display: flex;
+    }
+    .ftlp{
+        display: flex;
+        flex-direction: column;
+        background-color: #2651FF;
+    }
+    .sltp{
+
+    }
+
+    .ttlp{
+        
+    }
+    .ltlp{
+
+    }
